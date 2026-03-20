@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# url-shortener
-=======
+
 # 🔗 URL Shortener
 
 A simple and efficient URL Shortener built using **Node.js, Express, and MongoDB**.
