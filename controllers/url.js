@@ -19,7 +19,6 @@ async function handleGenerateNewShortUrl(req, res) {
    const shortid=req.params.shortId;
    const reuslt =await Url.findOne({shortId:shortid})
    res.json({totalClicks:result.visitHistory.length,
-             analytics:result.visitHistory
            })
 }
 
